@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    flex-direction: column;
+    gap: 20px;
+    background-color: red;
+}
+
+.caixaTexto{
+    width: 10%;
+    height: 5%;
+    border: 2px black solid;
+}
+
+.trocar{
+    width: 10%;
+    border: 2px black solid;
+    height: 5%;
+}
+
