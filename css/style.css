@@ -1,6 +1,6 @@
 :root{
     --color-bg: blue;
-    --color-text:black;
+    --color-text: black;
 }
 
 body{
@@ -14,8 +14,10 @@ body{
 }
 
 h1{
+    color: var(--color-text);
     text-decoration: underline;
 }
+
 
 #cor-usuario{
     text-align: center;
@@ -30,4 +32,28 @@ h1{
     border: 2px black solid;
     height: 5%;
 }
+
+
+#botao-beige{
+    background-color: beige;
+    width: 10%;
+    border: 2px black solid;
+    height: 5%;
+}
+
+#botao-amarelo{
+    background-color: yellow;
+    width: 10%;
+    border: 2px black solid;
+    height: 5%;
+}
+
+#botao-aqua{
+    background-color: aqua;
+    width: 10%;
+    border: 2px black solid;
+    height: 5%;
+}
+
+
 
