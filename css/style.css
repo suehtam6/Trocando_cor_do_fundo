@@ -1,3 +1,8 @@
+:root{
+    --color-bg: blue;
+    --color-text:black;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -5,16 +10,22 @@ body{
     height: 100dvh;
     flex-direction: column;
     gap: 20px;
-    background-color: red;
+    background-color: var(--color-bg);
 }
 
-.caixaTexto{
-    width: 10%;
+h1{
+    text-decoration: underline;
+}
+
+#cor-usuario{
+    text-align: center;
+    width: 20%;
     height: 5%;
     border: 2px black solid;
 }
 
-.trocar{
+
+#btnTrocar{
     width: 10%;
     border: 2px black solid;
     height: 5%;
