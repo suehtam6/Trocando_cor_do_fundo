@@ -33,6 +33,13 @@ h1{
     height: 5%;
 }
 
+#btnRandom{
+    text-align: center;
+    width: 10%;
+    height: 5%;
+    border: 2px black solid;
+}
+
 
 #botao-beige{
     background-color: beige;

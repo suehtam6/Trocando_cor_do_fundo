@@ -1,9 +1,11 @@
 'use strict'
 
     const botaoTrocarCor = document.getElementById("btnTrocar")
+    const botaoCorAleatoria = document.getElementById("btnRandom")
     const botaoBeige = document.getElementById("botao-beige")
     const botaoAmarelo = document.getElementById("botao-amarelo")
     const botaoAqua = document.getElementById("botao-aqua")
+    
 
     function trocaCor(){
 
@@ -66,8 +68,12 @@
         document.documentElement.style.setProperty("--color-text", "black")
     }
 
+    function fundoAleatorio(){
+        document.documentElement.style.setProperty("--color-bg", random)
+    }
+
     botaoTrocarCor.addEventListener("click", trocaCor)
     botaoBeige.addEventListener("click", fundoVerde)
     botaoAmarelo.addEventListener("click", fundoAmarelo)
     botaoAqua.addEventListener("click", fundoAqua)
-
+    botaoCorAleatoria.addEventListener("click",fundoAleatorio)
