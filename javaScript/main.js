@@ -68,10 +68,12 @@
         document.documentElement.style.setProperty("--color-text", "black")
     }
 
-    function fundoAleatorio(){
-        document.documentElement.style.setProperty("--color-bg", random)
-    }
-
+function fundoAleatorio() {
+    // Com esta function eu posso criar a cor aleatoria sendo hexadecimal e linkando no botão de "Cor Aleatoria"
+    const corGerada = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+    document.documentElement.style.setProperty("--color-bg", corGerada);
+    document.documentElement.style.setProperty("--color-text", "black");
+}
     botaoTrocarCor.addEventListener("click", trocaCor)
     botaoBeige.addEventListener("click", fundoVerde)
     botaoAmarelo.addEventListener("click", fundoAmarelo)
